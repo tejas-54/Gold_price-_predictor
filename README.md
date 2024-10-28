@@ -7,7 +7,7 @@ The primary goal of this project is to predict gold prices using machine learnin
 Data preprocessing is a crucial phase in any machine learning project. Here’s a breakdown of the steps taken in this project:
 
 ### Handling Categorical Variables
-- **Date Variable**: The 'Date' variable was converted to a datetime format to facilitate temporal analysis. While it wasn't directly used as a feature in the models, it helped contextualize the data.
+- **Date Variable**: The 'Date' variable was converted to a DateTime format to facilitate temporal analysis. While it wasn't directly used as a feature in the models, it helped contextualize the data.
 
 ### Missing Data Management
 - The dataset was examined for missing values using `data.isna().sum()`. If any missing values had been identified, appropriate strategies (like mean imputation for numerical variables or mode for categorical variables) would have been applied to ensure the integrity of the dataset.
@@ -36,6 +36,9 @@ Model performance was evaluated using the following metrics:
 - **Mean Squared Error (MSE)**: Measures the average squared difference between predicted and actual values.
 - **Root Mean Squared Error (RMSE)**: Provides an estimate of the standard deviation of the prediction errors, offering insight into how concentrated the data is around the line of best fit.
 - **R-squared (R2)**: Represents the proportion of variance for the dependent variable that's explained by independent variables in the model. Higher values indicate better fits.
+- **Cross-Validation**:To further assess the robustness of the models, cross-validation was performed using **cross_val_score** with 5-fold cross-validation. This method helps ensure that the model's performance is consistent across different subsets of the dataset, providing a more reliable estimate of its predictive capabilities.
+
+
 
 ## Comparison of Different Models
 The performance of each model was recorded, showcasing the following results:
