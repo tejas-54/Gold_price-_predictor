@@ -74,3 +74,8 @@ The following features were identified as critical in predicting gold prices:
 In summary, this project demonstrated an effective approach to predicting gold prices using machine learning models. Through meticulous data preprocessing, model selection, and evaluation.
 The **Extra Trees Regressor** emerged as the optimal model, achieving a remarkable accuracy of **99.527%**.
 The importance of key economic indicators such as SPX, USO, SLV, and EUR/USD was highlighted in their contribution to accurate gold price predictions. This report underscores the critical role of data preparation, model evaluation, and feature significance in building robust predictive models.
+![image](https://github.com/user-attachments/assets/9b3a1630-6172-40ed-9081-80763edffa91)
+
+![image](https://github.com/user-attachments/assets/165de556-24b8-4abe-a819-37ea2bc5d53d)
+
+
